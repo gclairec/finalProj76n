@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AC179C3A-C486-4413-B0A4-BFAF3AF9A7A4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C772F83AA358532F80CA5645DE6A1D6AE2A35C39</key>
+		<string>https://github.com/gclairec/finalProj76n.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Schooly/Schooly.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C772F83AA358532F80CA5645DE6A1D6AE2A35C39</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gclairec/finalProj76n.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C772F83AA358532F80CA5645DE6A1D6AE2A35C39</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C772F83AA358532F80CA5645DE6A1D6AE2A35C39</string>
+			<key>IDESourceControlWCCName</key>
+			<string>finalProj76n</string>
+		</dict>
+	</array>
+</dict>
+</plist>
