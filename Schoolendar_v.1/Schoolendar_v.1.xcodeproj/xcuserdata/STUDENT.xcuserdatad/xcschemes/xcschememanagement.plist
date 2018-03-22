@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Schoolendar.xcscheme</key>
+		<key>Schoolendar_v.1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3F9D1A692063785100DC2E40</key>
+		<key>3F9D1AD320637AEC00DC2E40</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3F9D1A822063785100DC2E40</key>
+		<key>3F9D1AF220637AEC00DC2E40</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3F9D1A692063785100DC2E40"
-               BuildableName = "Schoolendar.app"
-               BlueprintName = "Schoolendar"
-               ReferencedContainer = "container:Schoolendar.xcodeproj">
+               BlueprintIdentifier = "3F9D1AD320637AEC00DC2E40"
+               BuildableName = "Schoolendar_v.1.app"
+               BlueprintName = "Schoolendar_v.1"
+               ReferencedContainer = "container:Schoolendar_v.1.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3F9D1A822063785100DC2E40"
-               BuildableName = "SchoolendarTests.xctest"
-               BlueprintName = "SchoolendarTests"
-               ReferencedContainer = "container:Schoolendar.xcodeproj">
+               BlueprintIdentifier = "3F9D1AF220637AEC00DC2E40"
+               BuildableName = "Schoolendar_v.1Tests.xctest"
+               BlueprintName = "Schoolendar_v.1Tests"
+               ReferencedContainer = "container:Schoolendar_v.1.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3F9D1A822063785100DC2E40"
-               BuildableName = "SchoolendarTests.xctest"
-               BlueprintName = "SchoolendarTests"
-               ReferencedContainer = "container:Schoolendar.xcodeproj">
+               BlueprintIdentifier = "3F9D1AF220637AEC00DC2E40"
+               BuildableName = "Schoolendar_v.1Tests.xctest"
+               BlueprintName = "Schoolendar_v.1Tests"
+               ReferencedContainer = "container:Schoolendar_v.1.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3F9D1A692063785100DC2E40"
-            BuildableName = "Schoolendar.app"
-            BlueprintName = "Schoolendar"
-            ReferencedContainer = "container:Schoolendar.xcodeproj">
+            BlueprintIdentifier = "3F9D1AD320637AEC00DC2E40"
+            BuildableName = "Schoolendar_v.1.app"
+            BlueprintName = "Schoolendar_v.1"
+            ReferencedContainer = "container:Schoolendar_v.1.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3F9D1A692063785100DC2E40"
-            BuildableName = "Schoolendar.app"
-            BlueprintName = "Schoolendar"
-            ReferencedContainer = "container:Schoolendar.xcodeproj">
+            BlueprintIdentifier = "3F9D1AD320637AEC00DC2E40"
+            BuildableName = "Schoolendar_v.1.app"
+            BlueprintName = "Schoolendar_v.1"
+            ReferencedContainer = "container:Schoolendar_v.1.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3F9D1A692063785100DC2E40"
-            BuildableName = "Schoolendar.app"
-            BlueprintName = "Schoolendar"
-            ReferencedContainer = "container:Schoolendar.xcodeproj">
+            BlueprintIdentifier = "3F9D1AD320637AEC00DC2E40"
+            BuildableName = "Schoolendar_v.1.app"
+            BlueprintName = "Schoolendar_v.1"
+            ReferencedContainer = "container:Schoolendar_v.1.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

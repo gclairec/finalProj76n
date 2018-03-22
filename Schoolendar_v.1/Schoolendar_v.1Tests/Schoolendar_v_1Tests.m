@@ -1,6 +1,6 @@
 //
-//  SchoolendarTests.m
-//  SchoolendarTests
+//  Schoolendar_v_1Tests.m
+//  Schoolendar_v.1Tests
 //
 //  Created by STUDENT on 22/03/2018.
 //  Copyright (c) 2018 Gillian Claire Cancio. All rights reserved.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface SchoolendarTests : XCTestCase
+@interface Schoolendar_v_1Tests : XCTestCase
 
 @end
 
-@implementation SchoolendarTests
+@implementation Schoolendar_v_1Tests
 
 - (void)setUp {
     [super setUp];
