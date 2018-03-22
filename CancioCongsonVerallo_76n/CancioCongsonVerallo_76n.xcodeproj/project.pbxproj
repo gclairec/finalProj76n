@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F9D1A382063760300DC2E40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D1A372063760300DC2E40 /* main.m */; };
+		3F9D1A3B2063760300DC2E40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D1A3A2063760300DC2E40 /* AppDelegate.m */; };
+		3F9D1A3E2063760300DC2E40 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D1A3D2063760300DC2E40 /* RootViewController.m */; };
+		3F9D1A412063760300DC2E40 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D1A402063760300DC2E40 /* DataViewController.m */; };
+		3F9D1A442063760300DC2E40 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D1A432063760300DC2E40 /* ModelController.m */; };
+		3F9D1A472063760300DC2E40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D1A452063760300DC2E40 /* Main.storyboard */; };
+		3F9D1A492063760300DC2E40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D1A482063760300DC2E40 /* Images.xcassets */; };
+		3F9D1A4C2063760300DC2E40 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D1A4A2063760300DC2E40 /* LaunchScreen.xib */; };
+		3F9D1A582063760300DC2E40 /* CancioCongsonVerallo_76nTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D1A572063760300DC2E40 /* CancioCongsonVerallo_76nTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F9D1A522063760300DC2E40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F9D1A2A2063760300DC2E40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F9D1A312063760300DC2E40;
+			remoteInfo = CancioCongsonVerallo_76n;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F9D1A322063760300DC2E40 /* CancioCongsonVerallo_76n.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CancioCongsonVerallo_76n.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9D1A362063760300DC2E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9D1A372063760300DC2E40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F9D1A392063760300DC2E40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F9D1A3A2063760300DC2E40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F9D1A3C2063760300DC2E40 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3F9D1A3D2063760300DC2E40 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		3F9D1A3F2063760300DC2E40 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		3F9D1A402063760300DC2E40 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		3F9D1A422063760300DC2E40 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		3F9D1A432063760300DC2E40 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		3F9D1A462063760300DC2E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F9D1A482063760300DC2E40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3F9D1A4B2063760300DC2E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3F9D1A512063760300DC2E40 /* CancioCongsonVerallo_76nTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CancioCongsonVerallo_76nTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9D1A562063760300DC2E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9D1A572063760300DC2E40 /* CancioCongsonVerallo_76nTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CancioCongsonVerallo_76nTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F9D1A2F2063760300DC2E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9D1A4E2063760300DC2E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F9D1A292063760300DC2E40 = {
+			isa = PBXGroup;
+			children = (
+				3F9D1A342063760300DC2E40 /* CancioCongsonVerallo_76n */,
+				3F9D1A542063760300DC2E40 /* CancioCongsonVerallo_76nTests */,
+				3F9D1A332063760300DC2E40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F9D1A332063760300DC2E40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F9D1A322063760300DC2E40 /* CancioCongsonVerallo_76n.app */,
+				3F9D1A512063760300DC2E40 /* CancioCongsonVerallo_76nTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F9D1A342063760300DC2E40 /* CancioCongsonVerallo_76n */ = {
+			isa = PBXGroup;
+			children = (
+				3F9D1A392063760300DC2E40 /* AppDelegate.h */,
+				3F9D1A3A2063760300DC2E40 /* AppDelegate.m */,
+				3F9D1A3C2063760300DC2E40 /* RootViewController.h */,
+				3F9D1A3D2063760300DC2E40 /* RootViewController.m */,
+				3F9D1A3F2063760300DC2E40 /* DataViewController.h */,
+				3F9D1A402063760300DC2E40 /* DataViewController.m */,
+				3F9D1A422063760300DC2E40 /* ModelController.h */,
+				3F9D1A432063760300DC2E40 /* ModelController.m */,
+				3F9D1A452063760300DC2E40 /* Main.storyboard */,
+				3F9D1A482063760300DC2E40 /* Images.xcassets */,
+				3F9D1A4A2063760300DC2E40 /* LaunchScreen.xib */,
+				3F9D1A352063760300DC2E40 /* Supporting Files */,
+			);
+			path = CancioCongsonVerallo_76n;
+			sourceTree = "<group>";
+		};
+		3F9D1A352063760300DC2E40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F9D1A362063760300DC2E40 /* Info.plist */,
+				3F9D1A372063760300DC2E40 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F9D1A542063760300DC2E40 /* CancioCongsonVerallo_76nTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F9D1A572063760300DC2E40 /* CancioCongsonVerallo_76nTests.m */,
+				3F9D1A552063760300DC2E40 /* Supporting Files */,
+			);
+			path = CancioCongsonVerallo_76nTests;
+			sourceTree = "<group>";
+		};
+		3F9D1A552063760300DC2E40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F9D1A562063760300DC2E40 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F9D1A312063760300DC2E40 /* CancioCongsonVerallo_76n */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9D1A5B2063760300DC2E40 /* Build configuration list for PBXNativeTarget "CancioCongsonVerallo_76n" */;
+			buildPhases = (
+				3F9D1A2E2063760300DC2E40 /* Sources */,
+				3F9D1A2F2063760300DC2E40 /* Frameworks */,
+				3F9D1A302063760300DC2E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CancioCongsonVerallo_76n;
+			productName = CancioCongsonVerallo_76n;
+			productReference = 3F9D1A322063760300DC2E40 /* CancioCongsonVerallo_76n.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F9D1A502063760300DC2E40 /* CancioCongsonVerallo_76nTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9D1A5E2063760300DC2E40 /* Build configuration list for PBXNativeTarget "CancioCongsonVerallo_76nTests" */;
+			buildPhases = (
+				3F9D1A4D2063760300DC2E40 /* Sources */,
+				3F9D1A4E2063760300DC2E40 /* Frameworks */,
+				3F9D1A4F2063760300DC2E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F9D1A532063760300DC2E40 /* PBXTargetDependency */,
+			);
+			name = CancioCongsonVerallo_76nTests;
+			productName = CancioCongsonVerallo_76nTests;
+			productReference = 3F9D1A512063760300DC2E40 /* CancioCongsonVerallo_76nTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F9D1A2A2063760300DC2E40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Gillian Claire Cancio";
+				TargetAttributes = {
+					3F9D1A312063760300DC2E40 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					3F9D1A502063760300DC2E40 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 3F9D1A312063760300DC2E40;
+					};
+				};
+			};
+			buildConfigurationList = 3F9D1A2D2063760300DC2E40 /* Build configuration list for PBXProject "CancioCongsonVerallo_76n" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F9D1A292063760300DC2E40;
+			productRefGroup = 3F9D1A332063760300DC2E40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F9D1A312063760300DC2E40 /* CancioCongsonVerallo_76n */,
+				3F9D1A502063760300DC2E40 /* CancioCongsonVerallo_76nTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F9D1A302063760300DC2E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9D1A472063760300DC2E40 /* Main.storyboard in Resources */,
+				3F9D1A4C2063760300DC2E40 /* LaunchScreen.xib in Resources */,
+				3F9D1A492063760300DC2E40 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9D1A4F2063760300DC2E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F9D1A2E2063760300DC2E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9D1A412063760300DC2E40 /* DataViewController.m in Sources */,
+				3F9D1A3B2063760300DC2E40 /* AppDelegate.m in Sources */,
+				3F9D1A442063760300DC2E40 /* ModelController.m in Sources */,
+				3F9D1A382063760300DC2E40 /* main.m in Sources */,
+				3F9D1A3E2063760300DC2E40 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9D1A4D2063760300DC2E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9D1A582063760300DC2E40 /* CancioCongsonVerallo_76nTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F9D1A532063760300DC2E40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F9D1A312063760300DC2E40 /* CancioCongsonVerallo_76n */;
+			targetProxy = 3F9D1A522063760300DC2E40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F9D1A452063760300DC2E40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F9D1A462063760300DC2E40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F9D1A4A2063760300DC2E40 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F9D1A4B2063760300DC2E40 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F9D1A592063760300DC2E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F9D1A5A2063760300DC2E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F9D1A5C2063760300DC2E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CancioCongsonVerallo_76n/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F9D1A5D2063760300DC2E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CancioCongsonVerallo_76n/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F9D1A5F2063760300DC2E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CancioCongsonVerallo_76nTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CancioCongsonVerallo_76n.app/CancioCongsonVerallo_76n";
+			};
+			name = Debug;
+		};
+		3F9D1A602063760300DC2E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CancioCongsonVerallo_76nTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CancioCongsonVerallo_76n.app/CancioCongsonVerallo_76n";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F9D1A2D2063760300DC2E40 /* Build configuration list for PBXProject "CancioCongsonVerallo_76n" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9D1A592063760300DC2E40 /* Debug */,
+				3F9D1A5A2063760300DC2E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F9D1A5B2063760300DC2E40 /* Build configuration list for PBXNativeTarget "CancioCongsonVerallo_76n" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9D1A5C2063760300DC2E40 /* Debug */,
+				3F9D1A5D2063760300DC2E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F9D1A5E2063760300DC2E40 /* Build configuration list for PBXNativeTarget "CancioCongsonVerallo_76nTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9D1A5F2063760300DC2E40 /* Debug */,
+				3F9D1A602063760300DC2E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F9D1A2A2063760300DC2E40 /* Project object */;
+}
