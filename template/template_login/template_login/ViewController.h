@@ -17,6 +17,6 @@
     
 
 
-- (IBAction)loginUser:(id)sender;
+-(IBAction)loginUser:(id)sender;
 -(IBAction)registerUser:(id)sender;
 @end

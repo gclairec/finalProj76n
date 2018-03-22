@@ -34,6 +34,7 @@
 - (IBAction)loginUser:(id)sender {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     
+    
     if([_emailField.text isEqualToString:[defaults objectForKey:@"email"]] && [_passwordField.text isEqualToString:[defaults objectForKey:@"password"]]) {
         NSLog(@"Login credentials accepted");
     }else {
