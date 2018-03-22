@@ -44,7 +44,7 @@
                                     <rect key="frame" x="141" y="354" width="118" height="30"/>
                                 </variation>
                                 <connections>
-                                    <action selector="enterCredentials" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Sl-Oi-eoL"/>
+                                    <action selector="loginUser:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cQQ-Si-lBV"/>
                                     <segue destination="n8Q-qs-nEa" kind="show" id="kKi-Ig-sYz"/>
                                 </connections>
                             </button>
