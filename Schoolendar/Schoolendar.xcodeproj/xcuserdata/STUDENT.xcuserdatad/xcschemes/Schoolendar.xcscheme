@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3F9D1A692063785100DC2E40"
+               BlueprintIdentifier = "3F9D1A9B20637A8100DC2E40"
                BuildableName = "Schoolendar.app"
                BlueprintName = "Schoolendar"
                ReferencedContainer = "container:Schoolendar.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3F9D1A822063785100DC2E40"
+               BlueprintIdentifier = "3F9D1ABA20637A8100DC2E40"
                BuildableName = "SchoolendarTests.xctest"
                BlueprintName = "SchoolendarTests"
                ReferencedContainer = "container:Schoolendar.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3F9D1A822063785100DC2E40"
+               BlueprintIdentifier = "3F9D1ABA20637A8100DC2E40"
                BuildableName = "SchoolendarTests.xctest"
                BlueprintName = "SchoolendarTests"
                ReferencedContainer = "container:Schoolendar.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3F9D1A692063785100DC2E40"
+            BlueprintIdentifier = "3F9D1A9B20637A8100DC2E40"
             BuildableName = "Schoolendar.app"
             BlueprintName = "Schoolendar"
             ReferencedContainer = "container:Schoolendar.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3F9D1A692063785100DC2E40"
+            BlueprintIdentifier = "3F9D1A9B20637A8100DC2E40"
             BuildableName = "Schoolendar.app"
             BlueprintName = "Schoolendar"
             ReferencedContainer = "container:Schoolendar.xcodeproj">
@@ -95,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3F9D1A692063785100DC2E40"
+            BlueprintIdentifier = "3F9D1A9B20637A8100DC2E40"
             BuildableName = "Schoolendar.app"
             BlueprintName = "Schoolendar"
             ReferencedContainer = "container:Schoolendar.xcodeproj">

@@ -7,50 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F9D1A702063785100DC2E40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D1A6F2063785100DC2E40 /* main.m */; };
-		3F9D1A732063785100DC2E40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D1A722063785100DC2E40 /* AppDelegate.m */; };
-		3F9D1A762063785100DC2E40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D1A752063785100DC2E40 /* ViewController.m */; };
-		3F9D1A792063785100DC2E40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D1A772063785100DC2E40 /* Main.storyboard */; };
-		3F9D1A7B2063785100DC2E40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D1A7A2063785100DC2E40 /* Images.xcassets */; };
-		3F9D1A7E2063785100DC2E40 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D1A7C2063785100DC2E40 /* LaunchScreen.xib */; };
-		3F9D1A8A2063785100DC2E40 /* SchoolendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D1A892063785100DC2E40 /* SchoolendarTests.m */; };
+		3F9D1AA220637A8100DC2E40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D1AA120637A8100DC2E40 /* main.m */; };
+		3F9D1AA520637A8100DC2E40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D1AA420637A8100DC2E40 /* AppDelegate.m */; };
+		3F9D1AA820637A8100DC2E40 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D1AA720637A8100DC2E40 /* RootViewController.m */; };
+		3F9D1AAB20637A8100DC2E40 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D1AAA20637A8100DC2E40 /* DataViewController.m */; };
+		3F9D1AAE20637A8100DC2E40 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D1AAD20637A8100DC2E40 /* ModelController.m */; };
+		3F9D1AB120637A8100DC2E40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D1AAF20637A8100DC2E40 /* Main.storyboard */; };
+		3F9D1AB320637A8100DC2E40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D1AB220637A8100DC2E40 /* Images.xcassets */; };
+		3F9D1AB620637A8100DC2E40 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D1AB420637A8100DC2E40 /* LaunchScreen.xib */; };
+		3F9D1AC220637A8100DC2E40 /* SchoolendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D1AC120637A8100DC2E40 /* SchoolendarTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3F9D1A842063785100DC2E40 /* PBXContainerItemProxy */ = {
+		3F9D1ABC20637A8100DC2E40 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3F9D1A622063785100DC2E40 /* Project object */;
+			containerPortal = 3F9D1A9420637A8000DC2E40 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3F9D1A692063785100DC2E40;
+			remoteGlobalIDString = 3F9D1A9B20637A8100DC2E40;
 			remoteInfo = Schoolendar;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F9D1A6A2063785100DC2E40 /* Schoolendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schoolendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F9D1A6E2063785100DC2E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F9D1A6F2063785100DC2E40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3F9D1A712063785100DC2E40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3F9D1A722063785100DC2E40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3F9D1A742063785100DC2E40 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3F9D1A752063785100DC2E40 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3F9D1A782063785100DC2E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3F9D1A7A2063785100DC2E40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3F9D1A7D2063785100DC2E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		3F9D1A832063785100DC2E40 /* SchoolendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F9D1A882063785100DC2E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F9D1A892063785100DC2E40 /* SchoolendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchoolendarTests.m; sourceTree = "<group>"; };
+		3F9D1A9C20637A8100DC2E40 /* Schoolendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schoolendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9D1AA020637A8100DC2E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9D1AA120637A8100DC2E40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F9D1AA320637A8100DC2E40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F9D1AA420637A8100DC2E40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F9D1AA620637A8100DC2E40 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3F9D1AA720637A8100DC2E40 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		3F9D1AA920637A8100DC2E40 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		3F9D1AAA20637A8100DC2E40 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		3F9D1AAC20637A8100DC2E40 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		3F9D1AAD20637A8100DC2E40 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		3F9D1AB020637A8100DC2E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F9D1AB220637A8100DC2E40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3F9D1AB520637A8100DC2E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3F9D1ABB20637A8100DC2E40 /* SchoolendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9D1AC020637A8100DC2E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9D1AC120637A8100DC2E40 /* SchoolendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchoolendarTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F9D1A672063785100DC2E40 /* Frameworks */ = {
+		3F9D1A9920637A8100DC2E40 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F9D1A802063785100DC2E40 /* Frameworks */ = {
+		3F9D1AB820637A8100DC2E40 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,61 +66,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F9D1A612063785100DC2E40 = {
+		3F9D1A9320637A8000DC2E40 = {
 			isa = PBXGroup;
 			children = (
-				3F9D1A6C2063785100DC2E40 /* Schoolendar */,
-				3F9D1A862063785100DC2E40 /* SchoolendarTests */,
-				3F9D1A6B2063785100DC2E40 /* Products */,
+				3F9D1A9E20637A8100DC2E40 /* Schoolendar */,
+				3F9D1ABE20637A8100DC2E40 /* SchoolendarTests */,
+				3F9D1A9D20637A8100DC2E40 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3F9D1A6B2063785100DC2E40 /* Products */ = {
+		3F9D1A9D20637A8100DC2E40 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F9D1A6A2063785100DC2E40 /* Schoolendar.app */,
-				3F9D1A832063785100DC2E40 /* SchoolendarTests.xctest */,
+				3F9D1A9C20637A8100DC2E40 /* Schoolendar.app */,
+				3F9D1ABB20637A8100DC2E40 /* SchoolendarTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F9D1A6C2063785100DC2E40 /* Schoolendar */ = {
+		3F9D1A9E20637A8100DC2E40 /* Schoolendar */ = {
 			isa = PBXGroup;
 			children = (
-				3F9D1A712063785100DC2E40 /* AppDelegate.h */,
-				3F9D1A722063785100DC2E40 /* AppDelegate.m */,
-				3F9D1A742063785100DC2E40 /* ViewController.h */,
-				3F9D1A752063785100DC2E40 /* ViewController.m */,
-				3F9D1A772063785100DC2E40 /* Main.storyboard */,
-				3F9D1A7A2063785100DC2E40 /* Images.xcassets */,
-				3F9D1A7C2063785100DC2E40 /* LaunchScreen.xib */,
-				3F9D1A6D2063785100DC2E40 /* Supporting Files */,
+				3F9D1AA320637A8100DC2E40 /* AppDelegate.h */,
+				3F9D1AA420637A8100DC2E40 /* AppDelegate.m */,
+				3F9D1AA620637A8100DC2E40 /* RootViewController.h */,
+				3F9D1AA720637A8100DC2E40 /* RootViewController.m */,
+				3F9D1AA920637A8100DC2E40 /* DataViewController.h */,
+				3F9D1AAA20637A8100DC2E40 /* DataViewController.m */,
+				3F9D1AAC20637A8100DC2E40 /* ModelController.h */,
+				3F9D1AAD20637A8100DC2E40 /* ModelController.m */,
+				3F9D1AAF20637A8100DC2E40 /* Main.storyboard */,
+				3F9D1AB220637A8100DC2E40 /* Images.xcassets */,
+				3F9D1AB420637A8100DC2E40 /* LaunchScreen.xib */,
+				3F9D1A9F20637A8100DC2E40 /* Supporting Files */,
 			);
 			path = Schoolendar;
 			sourceTree = "<group>";
 		};
-		3F9D1A6D2063785100DC2E40 /* Supporting Files */ = {
+		3F9D1A9F20637A8100DC2E40 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3F9D1A6E2063785100DC2E40 /* Info.plist */,
-				3F9D1A6F2063785100DC2E40 /* main.m */,
+				3F9D1AA020637A8100DC2E40 /* Info.plist */,
+				3F9D1AA120637A8100DC2E40 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3F9D1A862063785100DC2E40 /* SchoolendarTests */ = {
+		3F9D1ABE20637A8100DC2E40 /* SchoolendarTests */ = {
 			isa = PBXGroup;
 			children = (
-				3F9D1A892063785100DC2E40 /* SchoolendarTests.m */,
-				3F9D1A872063785100DC2E40 /* Supporting Files */,
+				3F9D1AC120637A8100DC2E40 /* SchoolendarTests.m */,
+				3F9D1ABF20637A8100DC2E40 /* Supporting Files */,
 			);
 			path = SchoolendarTests;
 			sourceTree = "<group>";
 		};
-		3F9D1A872063785100DC2E40 /* Supporting Files */ = {
+		3F9D1ABF20637A8100DC2E40 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3F9D1A882063785100DC2E40 /* Info.plist */,
+				3F9D1AC020637A8100DC2E40 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -122,13 +132,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F9D1A692063785100DC2E40 /* Schoolendar */ = {
+		3F9D1A9B20637A8100DC2E40 /* Schoolendar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F9D1A8D2063785100DC2E40 /* Build configuration list for PBXNativeTarget "Schoolendar" */;
+			buildConfigurationList = 3F9D1AC520637A8100DC2E40 /* Build configuration list for PBXNativeTarget "Schoolendar" */;
 			buildPhases = (
-				3F9D1A662063785100DC2E40 /* Sources */,
-				3F9D1A672063785100DC2E40 /* Frameworks */,
-				3F9D1A682063785100DC2E40 /* Resources */,
+				3F9D1A9820637A8100DC2E40 /* Sources */,
+				3F9D1A9920637A8100DC2E40 /* Frameworks */,
+				3F9D1A9A20637A8100DC2E40 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -136,46 +146,46 @@
 			);
 			name = Schoolendar;
 			productName = Schoolendar;
-			productReference = 3F9D1A6A2063785100DC2E40 /* Schoolendar.app */;
+			productReference = 3F9D1A9C20637A8100DC2E40 /* Schoolendar.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3F9D1A822063785100DC2E40 /* SchoolendarTests */ = {
+		3F9D1ABA20637A8100DC2E40 /* SchoolendarTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F9D1A902063785100DC2E40 /* Build configuration list for PBXNativeTarget "SchoolendarTests" */;
+			buildConfigurationList = 3F9D1AC820637A8100DC2E40 /* Build configuration list for PBXNativeTarget "SchoolendarTests" */;
 			buildPhases = (
-				3F9D1A7F2063785100DC2E40 /* Sources */,
-				3F9D1A802063785100DC2E40 /* Frameworks */,
-				3F9D1A812063785100DC2E40 /* Resources */,
+				3F9D1AB720637A8100DC2E40 /* Sources */,
+				3F9D1AB820637A8100DC2E40 /* Frameworks */,
+				3F9D1AB920637A8100DC2E40 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3F9D1A852063785100DC2E40 /* PBXTargetDependency */,
+				3F9D1ABD20637A8100DC2E40 /* PBXTargetDependency */,
 			);
 			name = SchoolendarTests;
 			productName = SchoolendarTests;
-			productReference = 3F9D1A832063785100DC2E40 /* SchoolendarTests.xctest */;
+			productReference = 3F9D1ABB20637A8100DC2E40 /* SchoolendarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3F9D1A622063785100DC2E40 /* Project object */ = {
+		3F9D1A9420637A8000DC2E40 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Gillian Claire Cancio";
 				TargetAttributes = {
-					3F9D1A692063785100DC2E40 = {
+					3F9D1A9B20637A8100DC2E40 = {
 						CreatedOnToolsVersion = 6.3;
 					};
-					3F9D1A822063785100DC2E40 = {
+					3F9D1ABA20637A8100DC2E40 = {
 						CreatedOnToolsVersion = 6.3;
-						TestTargetID = 3F9D1A692063785100DC2E40;
+						TestTargetID = 3F9D1A9B20637A8100DC2E40;
 					};
 				};
 			};
-			buildConfigurationList = 3F9D1A652063785100DC2E40 /* Build configuration list for PBXProject "Schoolendar" */;
+			buildConfigurationList = 3F9D1A9720637A8000DC2E40 /* Build configuration list for PBXProject "Schoolendar" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -183,29 +193,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 3F9D1A612063785100DC2E40;
-			productRefGroup = 3F9D1A6B2063785100DC2E40 /* Products */;
+			mainGroup = 3F9D1A9320637A8000DC2E40;
+			productRefGroup = 3F9D1A9D20637A8100DC2E40 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F9D1A692063785100DC2E40 /* Schoolendar */,
-				3F9D1A822063785100DC2E40 /* SchoolendarTests */,
+				3F9D1A9B20637A8100DC2E40 /* Schoolendar */,
+				3F9D1ABA20637A8100DC2E40 /* SchoolendarTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3F9D1A682063785100DC2E40 /* Resources */ = {
+		3F9D1A9A20637A8100DC2E40 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F9D1A792063785100DC2E40 /* Main.storyboard in Resources */,
-				3F9D1A7E2063785100DC2E40 /* LaunchScreen.xib in Resources */,
-				3F9D1A7B2063785100DC2E40 /* Images.xcassets in Resources */,
+				3F9D1AB120637A8100DC2E40 /* Main.storyboard in Resources */,
+				3F9D1AB620637A8100DC2E40 /* LaunchScreen.xib in Resources */,
+				3F9D1AB320637A8100DC2E40 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F9D1A812063785100DC2E40 /* Resources */ = {
+		3F9D1AB920637A8100DC2E40 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -215,47 +225,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3F9D1A662063785100DC2E40 /* Sources */ = {
+		3F9D1A9820637A8100DC2E40 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F9D1A762063785100DC2E40 /* ViewController.m in Sources */,
-				3F9D1A732063785100DC2E40 /* AppDelegate.m in Sources */,
-				3F9D1A702063785100DC2E40 /* main.m in Sources */,
+				3F9D1AAB20637A8100DC2E40 /* DataViewController.m in Sources */,
+				3F9D1AA520637A8100DC2E40 /* AppDelegate.m in Sources */,
+				3F9D1AAE20637A8100DC2E40 /* ModelController.m in Sources */,
+				3F9D1AA220637A8100DC2E40 /* main.m in Sources */,
+				3F9D1AA820637A8100DC2E40 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F9D1A7F2063785100DC2E40 /* Sources */ = {
+		3F9D1AB720637A8100DC2E40 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F9D1A8A2063785100DC2E40 /* SchoolendarTests.m in Sources */,
+				3F9D1AC220637A8100DC2E40 /* SchoolendarTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3F9D1A852063785100DC2E40 /* PBXTargetDependency */ = {
+		3F9D1ABD20637A8100DC2E40 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3F9D1A692063785100DC2E40 /* Schoolendar */;
-			targetProxy = 3F9D1A842063785100DC2E40 /* PBXContainerItemProxy */;
+			target = 3F9D1A9B20637A8100DC2E40 /* Schoolendar */;
+			targetProxy = 3F9D1ABC20637A8100DC2E40 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3F9D1A772063785100DC2E40 /* Main.storyboard */ = {
+		3F9D1AAF20637A8100DC2E40 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3F9D1A782063785100DC2E40 /* Base */,
+				3F9D1AB020637A8100DC2E40 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3F9D1A7C2063785100DC2E40 /* LaunchScreen.xib */ = {
+		3F9D1AB420637A8100DC2E40 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3F9D1A7D2063785100DC2E40 /* Base */,
+				3F9D1AB520637A8100DC2E40 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -263,7 +275,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3F9D1A8B2063785100DC2E40 /* Debug */ = {
+		3F9D1AC320637A8100DC2E40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -307,7 +319,7 @@
 			};
 			name = Debug;
 		};
-		3F9D1A8C2063785100DC2E40 /* Release */ = {
+		3F9D1AC420637A8100DC2E40 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -345,7 +357,7 @@
 			};
 			name = Release;
 		};
-		3F9D1A8E2063785100DC2E40 /* Debug */ = {
+		3F9D1AC620637A8100DC2E40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -355,7 +367,7 @@
 			};
 			name = Debug;
 		};
-		3F9D1A8F2063785100DC2E40 /* Release */ = {
+		3F9D1AC720637A8100DC2E40 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -365,7 +377,7 @@
 			};
 			name = Release;
 		};
-		3F9D1A912063785100DC2E40 /* Debug */ = {
+		3F9D1AC920637A8100DC2E40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -384,7 +396,7 @@
 			};
 			name = Debug;
 		};
-		3F9D1A922063785100DC2E40 /* Release */ = {
+		3F9D1ACA20637A8100DC2E40 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -402,32 +414,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F9D1A652063785100DC2E40 /* Build configuration list for PBXProject "Schoolendar" */ = {
+		3F9D1A9720637A8000DC2E40 /* Build configuration list for PBXProject "Schoolendar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F9D1A8B2063785100DC2E40 /* Debug */,
-				3F9D1A8C2063785100DC2E40 /* Release */,
+				3F9D1AC320637A8100DC2E40 /* Debug */,
+				3F9D1AC420637A8100DC2E40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F9D1A8D2063785100DC2E40 /* Build configuration list for PBXNativeTarget "Schoolendar" */ = {
+		3F9D1AC520637A8100DC2E40 /* Build configuration list for PBXNativeTarget "Schoolendar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F9D1A8E2063785100DC2E40 /* Debug */,
-				3F9D1A8F2063785100DC2E40 /* Release */,
+				3F9D1AC620637A8100DC2E40 /* Debug */,
+				3F9D1AC720637A8100DC2E40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		3F9D1A902063785100DC2E40 /* Build configuration list for PBXNativeTarget "SchoolendarTests" */ = {
+		3F9D1AC820637A8100DC2E40 /* Build configuration list for PBXNativeTarget "SchoolendarTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F9D1A912063785100DC2E40 /* Debug */,
-				3F9D1A922063785100DC2E40 /* Release */,
+				3F9D1AC920637A8100DC2E40 /* Debug */,
+				3F9D1ACA20637A8100DC2E40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3F9D1A622063785100DC2E40 /* Project object */;
+	rootObject = 3F9D1A9420637A8000DC2E40 /* Project object */;
 }
