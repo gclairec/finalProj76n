@@ -1,22 +1,22 @@
 //
-//  ViewController.h
-//  template_login
+//  RegisterViewController.h
+//  
 //
 //  Created by STUDENT on 22/03/2018.
-//  Copyright (c) 2018 Gillian Claire Cancio. All rights reserved.
+//
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface RegisterViewController : UIViewController
 @property (weak, nonatomic)IBOutlet UITextField *emailField;
 @property (weak, nonatomic)IBOutlet UITextField *passwordField;
+@property (weak, nonatomic)IBOutlet UITextField *reenterpasswordField;
 @property (weak, nonatomic)IBOutlet UIButton *registerBtn;
-@property (weak, nonatomic)IBOutlet UIButton *loginBtn;
+@property (weak, nonatomic)IBOutlet UIButton *backBtn;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *userType;
-    
 
 
-- (IBAction)loginUser:(id)sender;
+- (IBAction)backLogin:(id)sender;
 -(IBAction)registerUser:(id)sender;
 @end

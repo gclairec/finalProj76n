@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface UserViewController : UIViewController
+@property (weak, nonatomic)IBOutlet UIButton *backBtn;
 
+-(IBAction)backLogin:(id)sender;
 @end

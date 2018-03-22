@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3F6465C62063AC58009C9774 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6465C52063AC58009C9774 /* UserViewController.m */; };
 		3F6465C72063AC58009C9774 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6465C52063AC58009C9774 /* UserViewController.m */; };
+		3F6465CE2063BDBE009C9774 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6465CD2063BDBE009C9774 /* RegisterViewController.m */; };
+		3F6465CF2063BDBE009C9774 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6465CD2063BDBE009C9774 /* RegisterViewController.m */; };
 		3F8B500C20638A66005FD246 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B500B20638A66005FD246 /* main.m */; };
 		3F8B500F20638A66005FD246 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B500E20638A66005FD246 /* AppDelegate.m */; };
 		3F8B501220638A66005FD246 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B501120638A66005FD246 /* ViewController.m */; };
@@ -31,6 +33,8 @@
 /* Begin PBXFileReference section */
 		3F6465C42063AC58009C9774 /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
 		3F6465C52063AC58009C9774 /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		3F6465CC2063BDBE009C9774 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		3F6465CD2063BDBE009C9774 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		3F8B500620638A66005FD246 /* template_login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = template_login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8B500A20638A66005FD246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F8B500B20638A66005FD246 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +89,8 @@
 		3F8B500820638A66005FD246 /* template_login */ = {
 			isa = PBXGroup;
 			children = (
+				3F6465CC2063BDBE009C9774 /* RegisterViewController.h */,
+				3F6465CD2063BDBE009C9774 /* RegisterViewController.m */,
 				3F6465C42063AC58009C9774 /* UserViewController.h */,
 				3F6465C52063AC58009C9774 /* UserViewController.m */,
 				3F8B500D20638A66005FD246 /* AppDelegate.h */,
@@ -225,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6465CE2063BDBE009C9774 /* RegisterViewController.m in Sources */,
 				3F8B501220638A66005FD246 /* ViewController.m in Sources */,
 				3F6465C62063AC58009C9774 /* UserViewController.m in Sources */,
 				3F8B500F20638A66005FD246 /* AppDelegate.m in Sources */,
@@ -237,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F8B502620638A66005FD246 /* template_loginTests.m in Sources */,
+				3F6465CF2063BDBE009C9774 /* RegisterViewController.m in Sources */,
 				3F6465C72063AC58009C9774 /* UserViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
