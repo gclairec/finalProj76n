@@ -1,6 +1,6 @@
 //
-//  CancioCongsonVerallo_76nTests.m
-//  CancioCongsonVerallo_76nTests
+//  SchoolendarTests.m
+//  SchoolendarTests
 //
 //  Created by STUDENT on 22/03/2018.
 //  Copyright (c) 2018 Gillian Claire Cancio. All rights reserved.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface CancioCongsonVerallo_76nTests : XCTestCase
+@interface SchoolendarTests : XCTestCase
 
 @end
 
-@implementation CancioCongsonVerallo_76nTests
+@implementation SchoolendarTests
 
 - (void)setUp {
     [super setUp];

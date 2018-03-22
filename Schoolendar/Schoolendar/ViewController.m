@@ -1,18 +1,18 @@
 //
-//  DataViewController.m
-//  CancioCongsonVerallo_76n
+//  ViewController.m
+//  Schoolendar
 //
 //  Created by STUDENT on 22/03/2018.
 //  Copyright (c) 2018 Gillian Claire Cancio. All rights reserved.
 //
 
-#import "DataViewController.h"
+#import "ViewController.h"
 
-@interface DataViewController ()
+@interface ViewController ()
 
 @end
 
-@implementation DataViewController
+@implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -22,11 +22,6 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-    self.dataLabel.text = [self.dataObject description];
 }
 
 @end

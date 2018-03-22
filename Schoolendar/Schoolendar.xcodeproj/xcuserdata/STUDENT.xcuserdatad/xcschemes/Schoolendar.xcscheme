@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3F9D1A312063760300DC2E40"
-               BuildableName = "CancioCongsonVerallo_76n.app"
-               BlueprintName = "CancioCongsonVerallo_76n"
-               ReferencedContainer = "container:CancioCongsonVerallo_76n.xcodeproj">
+               BlueprintIdentifier = "3F9D1A692063785100DC2E40"
+               BuildableName = "Schoolendar.app"
+               BlueprintName = "Schoolendar"
+               ReferencedContainer = "container:Schoolendar.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3F9D1A502063760300DC2E40"
-               BuildableName = "CancioCongsonVerallo_76nTests.xctest"
-               BlueprintName = "CancioCongsonVerallo_76nTests"
-               ReferencedContainer = "container:CancioCongsonVerallo_76n.xcodeproj">
+               BlueprintIdentifier = "3F9D1A822063785100DC2E40"
+               BuildableName = "SchoolendarTests.xctest"
+               BlueprintName = "SchoolendarTests"
+               ReferencedContainer = "container:Schoolendar.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3F9D1A502063760300DC2E40"
-               BuildableName = "CancioCongsonVerallo_76nTests.xctest"
-               BlueprintName = "CancioCongsonVerallo_76nTests"
-               ReferencedContainer = "container:CancioCongsonVerallo_76n.xcodeproj">
+               BlueprintIdentifier = "3F9D1A822063785100DC2E40"
+               BuildableName = "SchoolendarTests.xctest"
+               BlueprintName = "SchoolendarTests"
+               ReferencedContainer = "container:Schoolendar.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3F9D1A312063760300DC2E40"
-            BuildableName = "CancioCongsonVerallo_76n.app"
-            BlueprintName = "CancioCongsonVerallo_76n"
-            ReferencedContainer = "container:CancioCongsonVerallo_76n.xcodeproj">
+            BlueprintIdentifier = "3F9D1A692063785100DC2E40"
+            BuildableName = "Schoolendar.app"
+            BlueprintName = "Schoolendar"
+            ReferencedContainer = "container:Schoolendar.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3F9D1A312063760300DC2E40"
-            BuildableName = "CancioCongsonVerallo_76n.app"
-            BlueprintName = "CancioCongsonVerallo_76n"
-            ReferencedContainer = "container:CancioCongsonVerallo_76n.xcodeproj">
+            BlueprintIdentifier = "3F9D1A692063785100DC2E40"
+            BuildableName = "Schoolendar.app"
+            BlueprintName = "Schoolendar"
+            ReferencedContainer = "container:Schoolendar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3F9D1A312063760300DC2E40"
-            BuildableName = "CancioCongsonVerallo_76n.app"
-            BlueprintName = "CancioCongsonVerallo_76n"
-            ReferencedContainer = "container:CancioCongsonVerallo_76n.xcodeproj">
+            BlueprintIdentifier = "3F9D1A692063785100DC2E40"
+            BuildableName = "Schoolendar.app"
+            BlueprintName = "Schoolendar"
+            ReferencedContainer = "container:Schoolendar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

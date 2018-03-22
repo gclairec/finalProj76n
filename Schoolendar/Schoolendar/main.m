@@ -1,6 +1,6 @@
 //
 //  main.m
-//  CancioCongsonVerallo_76n
+//  Schoolendar
 //
 //  Created by STUDENT on 22/03/2018.
 //  Copyright (c) 2018 Gillian Claire Cancio. All rights reserved.
