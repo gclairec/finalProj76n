@@ -18,6 +18,10 @@
 		3F8B501720638A66005FD246 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B501620638A66005FD246 /* Images.xcassets */; };
 		3F8B501A20638A66005FD246 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B501820638A66005FD246 /* LaunchScreen.xib */; };
 		3F8B502620638A66005FD246 /* template_loginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B502520638A66005FD246 /* template_loginTests.m */; };
+		720E59092065022000728A23 /* CourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 720E59082065022000728A23 /* CourseViewController.m */; };
+		720E590C2065064600728A23 /* NotifViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 720E590B2065064600728A23 /* NotifViewController.m */; };
+		720E591520650B6F00728A23 /* TeacherTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 720E591420650B6F00728A23 /* TeacherTabBarController.m */; };
+		720E59182065218700728A23 /* AddCourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 720E59172065218700728A23 /* AddCourseViewController.m */; };
 		7231239A206490030013FD2B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 72312399206490030013FD2B /* libsqlite3.dylib */; };
 		725E8C7C20649D7C0022819A /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 725E8C7B20649D7C0022819A /* DBManager.m */; };
 		725E8C7E2064AE0E0022819A /* schoolyDB in Resources */ = {isa = PBXBuildFile; fileRef = 725E8C7D2064AE0E0022819A /* schoolyDB */; };
@@ -51,6 +55,14 @@
 		3F8B501F20638A66005FD246 /* template_loginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = template_loginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8B502420638A66005FD246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F8B502520638A66005FD246 /* template_loginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = template_loginTests.m; sourceTree = "<group>"; };
+		720E59072065022000728A23 /* CourseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseViewController.h; sourceTree = "<group>"; };
+		720E59082065022000728A23 /* CourseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseViewController.m; sourceTree = "<group>"; };
+		720E590A2065064600728A23 /* NotifViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotifViewController.h; sourceTree = "<group>"; };
+		720E590B2065064600728A23 /* NotifViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotifViewController.m; sourceTree = "<group>"; };
+		720E591320650B6F00728A23 /* TeacherTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherTabBarController.h; sourceTree = "<group>"; };
+		720E591420650B6F00728A23 /* TeacherTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherTabBarController.m; sourceTree = "<group>"; };
+		720E59162065218700728A23 /* AddCourseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCourseViewController.h; sourceTree = "<group>"; };
+		720E59172065218700728A23 /* AddCourseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCourseViewController.m; sourceTree = "<group>"; };
 		72312399206490030013FD2B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		725E8C7A20649D7C0022819A /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
 		725E8C7B20649D7C0022819A /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
@@ -98,6 +110,14 @@
 		3F8B500820638A66005FD246 /* template_login */ = {
 			isa = PBXGroup;
 			children = (
+				720E59162065218700728A23 /* AddCourseViewController.h */,
+				720E59172065218700728A23 /* AddCourseViewController.m */,
+				720E591320650B6F00728A23 /* TeacherTabBarController.h */,
+				720E591420650B6F00728A23 /* TeacherTabBarController.m */,
+				720E590A2065064600728A23 /* NotifViewController.h */,
+				720E590B2065064600728A23 /* NotifViewController.m */,
+				720E59072065022000728A23 /* CourseViewController.h */,
+				720E59082065022000728A23 /* CourseViewController.m */,
 				725E8C7A20649D7C0022819A /* DBManager.h */,
 				725E8C7D2064AE0E0022819A /* schoolyDB */,
 				725E8C7B20649D7C0022819A /* DBManager.m */,
@@ -245,11 +265,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F6465CE2063BDBE009C9774 /* RegisterViewController.m in Sources */,
+				720E59182065218700728A23 /* AddCourseViewController.m in Sources */,
 				3F8B501220638A66005FD246 /* ViewController.m in Sources */,
 				3F6465C62063AC58009C9774 /* UserViewController.m in Sources */,
 				725E8C7C20649D7C0022819A /* DBManager.m in Sources */,
+				720E59092065022000728A23 /* CourseViewController.m in Sources */,
+				720E591520650B6F00728A23 /* TeacherTabBarController.m in Sources */,
 				3F8B500F20638A66005FD246 /* AppDelegate.m in Sources */,
 				3F8B500C20638A66005FD246 /* main.m in Sources */,
+				720E590C2065064600728A23 /* NotifViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

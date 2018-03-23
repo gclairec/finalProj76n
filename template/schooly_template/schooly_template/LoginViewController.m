@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  LoginViewController.m
 //  schooly_template
 //
 //  Created by CEAC-TC on 23/03/2018.
 //  Copyright (c) 2018 Gillian Claire Cancio. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "LoginViewController.h"
 
-@interface ViewController ()
+@interface LoginViewController ()
 
 @end
 
-@implementation ViewController
+@implementation LoginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

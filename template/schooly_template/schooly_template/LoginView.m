@@ -10,4 +10,12 @@
 
 @implementation LoginView
 
+@synthesize emailField = _emailField;
+@synthesize passwordField = _passwordField;
+@synthesize btnLogin = _btnLogin;
+
+
+
+
+
 @end
