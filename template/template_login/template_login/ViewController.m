@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TeacherTabBarController.h"
 
 @interface ViewController ()
 
@@ -17,8 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.emailField.delegate = self;
-    self.passwordField.delegate = self;
+//    self.emailField.delegate = self;
+//    self.passwordField.delegate = self;
     self.dbManager = [[DBManager alloc] initWithDatabaseFilename:@"schoolyDB"];
 //    // Do any additional setup after loading the view, typically from a nib.
 //    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
@@ -31,13 +32,33 @@
 //    }
 }
 
--(BOOL)textFieldShouldReturn:(UITextField *)textField{
-    [textField resignFirstResponder];
-    return YES;
+- (void)hideKeyboard {
+    [self.emailField resignFirstResponder];
+    [self.passwordField resignFirstResponder];
 }
 - (IBAction)registerBtn:(id)sender {
 }
 - (IBAction)loginBtn:(id)sender {
+    [self hideKeyboard];
+
+}
+
+
+-(void) loginHandler {
+    if(_userType.selectedSegmentIndex==0)
+    {
+        NSString *query = [NSString stringWithFormat:@"select email,password from teacherInfo where email='%@' and password ='%@'", _emailField.text, _passwordField.text ];
+        // Load the relevant data.
+        NSArray *results = [[NSArray alloc] initWithArray:[self.dbManager loadDataFromDB:query]];
+        
+        if(results.count > 0) {
+            // naa koy nakit.an so kuhaon nako si result
+            //id result = results[0];
+            [self performSegueWithIdentifier:@"teacherLogin" sender:[results firstObject]];
+        
+        }
+
+    }
 }
 
 - (IBAction)loginUser:(id)sender {
@@ -51,15 +72,25 @@
 //        UIAlertView *error = [[UIAlertView alloc] initWithTitle:@"Ooooops" message:@"Your username and password do not match" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
 //        [error show];
 //    }
-    if(_userType.selectedSegmentIndex)
-    {
-        NSString *query = @"select email, password from studentInfo where email=%@, password =%@", self._emailField, self._passwordField;
-    }
-    
+    [self loginHandler];
     
     
 }
 
 - (IBAction)registerUser:(id)sender {
 }
+
+
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+     if([segue.identifier isEqualToString:@"teacherLogin"]){
+         TeacherTabBarController *targ = (TeacherTabBarController *)[segue destinationViewController];
+         [targ setData:(NSArray *)sender];
+     }
+ }
+
 @end

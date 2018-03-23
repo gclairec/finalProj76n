@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../schooly_template/LoginView.h">
+   </FileRef>
+   <FileRef
+      location = "group:../schooly_template/LoginView.m">
+   </FileRef>
+   <FileRef
+      location = "self:schooly_template.xcodeproj">
+   </FileRef>
+</Workspace>
