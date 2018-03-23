@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface DBViewController : UIViewController
-
+#import "sqlite3.h"
+@interface DBViewController : UIViewController{
+    sqlite3 *contactDB;
+}
 @end

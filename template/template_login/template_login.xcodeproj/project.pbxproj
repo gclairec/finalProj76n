@@ -18,6 +18,9 @@
 		3F8B501720638A66005FD246 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B501620638A66005FD246 /* Images.xcassets */; };
 		3F8B501A20638A66005FD246 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B501820638A66005FD246 /* LaunchScreen.xib */; };
 		3F8B502620638A66005FD246 /* template_loginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B502520638A66005FD246 /* template_loginTests.m */; };
+		7231239A206490030013FD2B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 72312399206490030013FD2B /* libsqlite3.dylib */; };
+		725E8C7C20649D7C0022819A /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 725E8C7B20649D7C0022819A /* DBManager.m */; };
+		725E8C7E2064AE0E0022819A /* schoolyDB in Resources */ = {isa = PBXBuildFile; fileRef = 725E8C7D2064AE0E0022819A /* schoolyDB */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,10 @@
 		3F8B501F20638A66005FD246 /* template_loginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = template_loginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8B502420638A66005FD246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F8B502520638A66005FD246 /* template_loginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = template_loginTests.m; sourceTree = "<group>"; };
+		72312399206490030013FD2B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		725E8C7A20649D7C0022819A /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		725E8C7B20649D7C0022819A /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		725E8C7D2064AE0E0022819A /* schoolyDB */ = {isa = PBXFileReference; lastKnownFileType = file; path = schoolyDB; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7231239A206490030013FD2B /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +79,7 @@
 		3F8B4FFD20638A66005FD246 = {
 			isa = PBXGroup;
 			children = (
+				72312399206490030013FD2B /* libsqlite3.dylib */,
 				3F8B500820638A66005FD246 /* template_login */,
 				3F8B502220638A66005FD246 /* template_loginTests */,
 				3F8B500720638A66005FD246 /* Products */,
@@ -89,6 +98,9 @@
 		3F8B500820638A66005FD246 /* template_login */ = {
 			isa = PBXGroup;
 			children = (
+				725E8C7A20649D7C0022819A /* DBManager.h */,
+				725E8C7D2064AE0E0022819A /* schoolyDB */,
+				725E8C7B20649D7C0022819A /* DBManager.m */,
 				3F6465CC2063BDBE009C9774 /* RegisterViewController.h */,
 				3F6465CD2063BDBE009C9774 /* RegisterViewController.m */,
 				3F6465C42063AC58009C9774 /* UserViewController.h */,
@@ -211,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				725E8C7E2064AE0E0022819A /* schoolyDB in Resources */,
 				3F8B501520638A66005FD246 /* Main.storyboard in Resources */,
 				3F8B501A20638A66005FD246 /* LaunchScreen.xib in Resources */,
 				3F8B501720638A66005FD246 /* Images.xcassets in Resources */,
@@ -234,6 +247,7 @@
 				3F6465CE2063BDBE009C9774 /* RegisterViewController.m in Sources */,
 				3F8B501220638A66005FD246 /* ViewController.m in Sources */,
 				3F6465C62063AC58009C9774 /* UserViewController.m in Sources */,
+				725E8C7C20649D7C0022819A /* DBManager.m in Sources */,
 				3F8B500F20638A66005FD246 /* AppDelegate.m in Sources */,
 				3F8B500C20638A66005FD246 /* main.m in Sources */,
 			);

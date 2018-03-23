@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DBManager.h"
 
 @interface ViewController : UIViewController
+@property (nonatomic, strong) DBManager *dbManager;
+@property (nonatomic, strong) NSArray *userInfo;
 @property (weak, nonatomic)IBOutlet UITextField *emailField;
 @property (weak, nonatomic)IBOutlet UITextField *passwordField;
 @property (weak, nonatomic)IBOutlet UIButton *registerBtn;
