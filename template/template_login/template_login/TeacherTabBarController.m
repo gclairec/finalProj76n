@@ -8,6 +8,7 @@
 
 #import "TeacherTabBarController.h"
 #import "CourseViewController.h"
+#import "AddCourseViewController.h"
 
 @implementation TeacherTabBarController
 
@@ -15,6 +16,18 @@
     [super viewDidLoad];
     //[[(CourseViewController *)[self viewControllers] firstObject] ]
     [(CourseViewController *)[[self viewControllers] firstObject] setData:[self data]];
+    
+    
 }
+
+
+
+
+
+//
+//-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+//    AddCourseViewController *addCourseViewController = [segue destinationViewController];
+//    addCourseViewController.delegate = self;
+//}
 
 @end

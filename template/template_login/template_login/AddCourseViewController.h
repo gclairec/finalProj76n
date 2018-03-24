@@ -8,14 +8,23 @@
 
 #import <UIKit/UIKit.h>
 #import "DBManager.h"
-@interface AddCourseViewController : UIViewController
-@property (nonatomic, strong) DBManager *dbManager;
 
+
+@protocol AddCourseViewControllerDelegate
+
+-(void)addingCourseWasFinished;
+
+@end
+
+@interface AddCourseViewController : UIViewController <UITextFieldDelegat>
+@property (nonatomic, strong) DBManager *dbManager;
+@property (strong, nonatomic) NSArray *courses;
 @property (strong, nonatomic) IBOutlet UITextField *courseField;
 @property (strong, nonatomic) IBOutlet UITextField *schedField;
 @property (strong, nonatomic) IBOutlet UIButton *addCourseBtn;
-
+@property (nonatomic, strong) id<AddCourseViewControllerDelegate> delegate;
 
 - (IBAction)addCourseBtn:(id)sender;
+- (void) addCourse;
 
 @end

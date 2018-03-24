@@ -11,5 +11,6 @@
 @interface TeacherTabBarController : UITabBarController
 
 @property (strong, nonatomic) NSArray *data;
+@property (strong, nonatomic) NSArray *courses;
 
 @end
