@@ -12,6 +12,9 @@
 @interface CourseViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) DBManager *dbManager;
 @property (strong, nonatomic) NSArray *data;
+@property (strong, nonatomic) NSArray *userInfo;
+@property (strong, nonatomic) NSArray *courses;
+
 @property (strong, nonatomic) IBOutlet UIBarButtonItem *addCourseBtn;
 @property (strong, nonatomic) IBOutlet UITableView *tblCourses;
 - (IBAction)addCourseBtn:(id)sender;

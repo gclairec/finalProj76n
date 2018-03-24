@@ -9,40 +9,49 @@
 #import "CourseViewController.h"
 
 
-@interface CourseViewController ()
-@property (strong, nonatomic) NSArray *courses;
-
-
-@end
 
 @implementation CourseViewController
 
 -(void)viewDidLoad{
     [super viewDidLoad];
-    NSLog(@"%@",[self data]);
+    
     self.navigationController.navigationBar.tintColor = self.navigationItem.rightBarButtonItem.tintColor;
     self.dbManager = [[DBManager alloc] initWithDatabaseFilename:@"schoolyDB"];
     self.tblCourses.delegate = self;
     self.tblCourses.dataSource = self;
+    
     [self loadData];
 }
 - (IBAction)addCourseBtn:(id)sender {
     [self performSegueWithIdentifier:@"addCourse" sender:self];
 }
 
+//-(void)viewDidAppear:(BOOL)animated {
+//    [super viewDidAppear:animated];
+//    
+//    [self loadData];
+//}
+
 -(void)addingCourseWasFinished{
     // Reload the data.
     [self loadData];
 }
 
-//-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-//    AddCourseViewController *addCourseViewController = [segue destinationViewController];
-//    addCourseViewController.delegate = self;
-//}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+    if([segue.identifier isEqualToString:@"addCourse"]){
+        
+        AddCourseViewController *targ = (AddCourseViewController *)[segue destinationViewController];
+        [targ setData:_data];
+    }
+}
 
 -(void)loadData{
     // Form the query.
-    NSString *query = @"select * from coursesInfo";
+    NSLog(@"Data from data: %@", _data);
+    NSString *query = [NSString stringWithFormat:@"select * from coursesInfo where teacher_ID = '%@'", _data[0]];
     
     // Get the results.
     if (self.courses != nil) {
@@ -72,9 +81,6 @@
     // Dequeue the cell.
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"idCellRecord" forIndexPath:indexPath];
     
-    NSInteger indexOfFirstname = [self.dbManager.arrColumnNames indexOfObject:@"firstname"];
-    NSInteger indexOfLastname = [self.dbManager.arrColumnNames indexOfObject:@"lastname"];
-    NSInteger indexOfAge = [self.dbManager.arrColumnNames indexOfObject:@"age"];
     
     // Set the loaded data to the appropriate cell labels.
     cell.textLabel.text = [NSString stringWithFormat:@"%@", [[self.courses objectAtIndex:indexPath.row] objectAtIndex:1]];

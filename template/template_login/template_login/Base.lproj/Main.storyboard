@@ -138,6 +138,12 @@
                                 <animations/>
                                 <items>
                                     <navigationItem title="Notifications" id="jWy-j8-SBc">
+                                        <barButtonItem key="leftBarButtonItem" title="Logout" id="uKV-wc-3Cm">
+                                            <connections>
+                                                <action selector="onLogout:" destination="rnC-yb-9qq" id="HK7-Co-K2k"/>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="dp2-a4-Z14"/>
+                                            </connections>
+                                        </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="5zp-HL-zhL"/>
                                     </navigationItem>
                                 </items>
@@ -226,6 +232,7 @@
                                     <navigationItem title="Course List" id="Gka-q6-uSA">
                                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="S4w-zO-mV8">
                                             <connections>
+                                                <action selector="addCourseBtn:" destination="E71-ch-Z5O" id="jp8-GD-vVV"/>
                                                 <segue destination="Mu1-Pm-cRg" kind="show" identifier="addCourse" id="JC6-Gc-DAZ"/>
                                             </connections>
                                         </barButtonItem>
@@ -293,6 +300,10 @@
                         </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="zw6-BA-7RA"/>
+                    <connections>
+                        <outlet property="addCourseBtn" destination="S4w-zO-mV8" id="B4B-He-Ksb"/>
+                        <outlet property="tblCourses" destination="HS7-88-r85" id="sWM-Oz-ODC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xe2-Ng-sDL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -357,9 +368,6 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="57" y="312" width="286" height="30"/>
                                 </variation>
-                                <connections>
-                                    <action selector="addCourseBtn:" destination="Mu1-Pm-cRg" eventType="editingDidEnd" id="gXS-Px-lPf"/>
-                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o6f-sa-1aT">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -371,7 +379,7 @@
                                     <rect key="frame" x="139" y="382" width="123" height="30"/>
                                 </variation>
                                 <connections>
-                                    <segue destination="o2I-gM-HYV" kind="show" identifier="afterAddCourse" id="9mg-Gq-DcD"/>
+                                    <action selector="addCourseBtn:" destination="Mu1-Pm-cRg" eventType="touchUpInside" id="cPt-X5-49d"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -395,9 +403,9 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="addCourseBtn" destination="o6f-sa-1aT" id="w23-z2-bz1"/>
                         <outlet property="courseField" destination="2YA-ky-gzY" id="DDy-nj-3qT"/>
                         <outlet property="schedField" destination="swS-9j-cer" id="Eak-TB-Tjs"/>
+                        <segue destination="o2I-gM-HYV" kind="show" identifier="afterAddCourse" id="d8c-Bb-1hw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="miQ-wZ-rdi" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -546,7 +554,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="9mg-Gq-DcD"/>
-        <segue reference="gdG-cq-2lA"/>
+        <segue reference="dp2-a4-Z14"/>
+        <segue reference="Jxh-Nq-I2M"/>
     </inferredMetricsTieBreakers>
 </document>

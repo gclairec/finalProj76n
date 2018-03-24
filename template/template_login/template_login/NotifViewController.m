@@ -17,4 +17,6 @@
     [super viewDidLoad];
     NSLog(@"%@", [self data]);
 }
+- (IBAction)onLogout:(id)sender {
+}
 @end

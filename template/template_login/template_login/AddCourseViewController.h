@@ -16,12 +16,13 @@
 
 @end
 
-@interface AddCourseViewController : UIViewController <UITextFieldDelegat>
+@interface AddCourseViewController : UIViewController <UITextFieldDelegate>
 @property (nonatomic, strong) DBManager *dbManager;
+@property (nonatomic, strong) NSArray *data;
+
 @property (strong, nonatomic) NSArray *courses;
 @property (strong, nonatomic) IBOutlet UITextField *courseField;
 @property (strong, nonatomic) IBOutlet UITextField *schedField;
-@property (strong, nonatomic) IBOutlet UIButton *addCourseBtn;
 @property (nonatomic, strong) id<AddCourseViewControllerDelegate> delegate;
 
 - (IBAction)addCourseBtn:(id)sender;

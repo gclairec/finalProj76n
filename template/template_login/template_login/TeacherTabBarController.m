@@ -7,17 +7,31 @@
 //
 
 #import "TeacherTabBarController.h"
-#import "CourseViewController.h"
-#import "AddCourseViewController.h"
+
 
 @implementation TeacherTabBarController
 
 -(void)viewDidLoad{
     [super viewDidLoad];
     //[[(CourseViewController *)[self viewControllers] firstObject] ]
+//    [(CourseViewController *)[[self viewControllers] firstObject] setData:[self data]];
+//    [(AddCourseViewController *)[[self viewControllers] firstObject] setData:[self courses]];
+    
     [(CourseViewController *)[[self viewControllers] firstObject] setData:[self data]];
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if([segue.identifier isEqualToString:@"afterAddCourse"]){
+        NSLog(@"Inside TTBC:%@", _data);
+        [(CourseViewController *)[[self viewControllers] firstObject] setData:[self courses]];
+        
+    }
+    if([segue.identifier isEqualToString:@"teacherLogin"]){
+        NSLog(@"Inside TTBC:%@", _data);
+        [(CourseViewController *)[[self viewControllers] firstObject] setData:[self userInfo]];
+    }
     
-    
+
 }
 
 
