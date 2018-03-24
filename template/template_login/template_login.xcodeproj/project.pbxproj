@@ -25,6 +25,7 @@
 		7231239A206490030013FD2B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 72312399206490030013FD2B /* libsqlite3.dylib */; };
 		725E8C7C20649D7C0022819A /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 725E8C7B20649D7C0022819A /* DBManager.m */; };
 		725E8C7E2064AE0E0022819A /* schoolyDB in Resources */ = {isa = PBXBuildFile; fileRef = 725E8C7D2064AE0E0022819A /* schoolyDB */; };
+		72F8C009206639A600933CAC /* CourseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F8C008206639A600933CAC /* CourseDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		725E8C7A20649D7C0022819A /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
 		725E8C7B20649D7C0022819A /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
 		725E8C7D2064AE0E0022819A /* schoolyDB */ = {isa = PBXFileReference; lastKnownFileType = file; path = schoolyDB; sourceTree = "<group>"; };
+		72F8C007206639A600933CAC /* CourseDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseDetailViewController.h; sourceTree = "<group>"; };
+		72F8C008206639A600933CAC /* CourseDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 		3F8B500820638A66005FD246 /* template_login */ = {
 			isa = PBXGroup;
 			children = (
+				72F8C007206639A600933CAC /* CourseDetailViewController.h */,
+				72F8C008206639A600933CAC /* CourseDetailViewController.m */,
 				720E59162065218700728A23 /* AddCourseViewController.h */,
 				720E59172065218700728A23 /* AddCourseViewController.m */,
 				720E591320650B6F00728A23 /* TeacherTabBarController.h */,
@@ -265,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F6465CE2063BDBE009C9774 /* RegisterViewController.m in Sources */,
+				72F8C009206639A600933CAC /* CourseDetailViewController.m in Sources */,
 				720E59182065218700728A23 /* AddCourseViewController.m in Sources */,
 				3F8B501220638A66005FD246 /* ViewController.m in Sources */,
 				3F6465C62063AC58009C9774 /* UserViewController.m in Sources */,

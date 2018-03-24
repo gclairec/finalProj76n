@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "DBManager.h"
 #import "AddCourseViewController.h"
+#import "CourseDetailViewController.h"
 @interface CourseViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) DBManager *dbManager;
 @property (strong, nonatomic) NSArray *data;

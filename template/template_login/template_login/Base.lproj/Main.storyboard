@@ -211,7 +211,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cp2-vq-FxR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2154" y="745"/>
+            <point key="canvasLocation" x="2118" y="745"/>
         </scene>
         <!--Item 1-->
         <scene sceneID="R6i-Zl-B3E">
@@ -277,6 +277,9 @@
                                             <animations/>
                                         </tableViewCellContentView>
                                         <animations/>
+                                        <connections>
+                                            <segue destination="JGc-b4-Nmz" kind="showDetail" identifier="courseDetail" id="VOT-52-PHV"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <variation key="widthClass=compact" fixedFrame="YES">
@@ -308,6 +311,93 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xe2-Ng-sDL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2118" y="57"/>
+        </scene>
+        <!--Course Detail View Controller-->
+        <scene sceneID="1XJ-H5-swO">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="16e-Q5-JsC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="JGc-b4-Nmz" customClass="CourseDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sNv-y3-NUc"/>
+                        <viewControllerLayoutGuide type="bottom" id="Tqh-MB-htj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KXs-h0-5iZ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XvG-EC-5K4">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <animations/>
+                                <items>
+                                    <navigationItem title="Title" id="oGA-02-CSg"/>
+                                </items>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="8" y="28" width="384" height="44"/>
+                                </variation>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v7o-P5-7d6">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="34" y="198" width="308" height="53"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUj-6a-gna">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Add Notification">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="34" y="283" width="130" height="34"/>
+                                </variation>
+                                <connections>
+                                    <action selector="addNotif:" destination="JGc-b4-Nmz" eventType="touchUpInside" id="wSz-zv-QO1"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DQv-Pw-gS4">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="34" y="146" width="308" height="85"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="XvG-EC-5K4"/>
+                                <exclude reference="v7o-P5-7d6"/>
+                                <exclude reference="bUj-6a-gna"/>
+                                <exclude reference="DQv-Pw-gS4"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="XvG-EC-5K4"/>
+                                <include reference="v7o-P5-7d6"/>
+                                <include reference="bUj-6a-gna"/>
+                                <include reference="DQv-Pw-gS4"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="addNotif" destination="bUj-6a-gna" id="rev-Zv-SUk"/>
+                        <outlet property="courseName" destination="DQv-Pw-gS4" id="ISs-sP-iDl"/>
+                        <outlet property="courseSched" destination="v7o-P5-7d6" id="d1c-8G-7Pq"/>
+                        <outlet property="navBar" destination="XvG-EC-5K4" id="ZnG-1I-cxH"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="2958" y="57"/>
         </scene>
         <!--Teacher Tab Bar Controller-->
         <scene sceneID="A9a-e5-d1g">

@@ -1,0 +1,18 @@
+//
+//  SCourseViewController.h
+//  
+//
+//  Created by CEAC-TC on 24/03/2018.
+//
+//
+
+#import <UIKit/UIKit.h>
+
+@interface SCourseViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UINavigationBar *navBar;
+@property (strong, nonatomic) IBOutlet UILabel *courseName;
+@property (strong, nonatomic) IBOutlet UILabel *courseSched;
+@property (strong, nonatomic) IBOutlet UIButton *addNotif;
+- (IBAction)addNotif:(id)sender;
+@property (strong, nonatomic) NSArray *course;
+@end

@@ -46,6 +46,11 @@
         AddCourseViewController *targ = (AddCourseViewController *)[segue destinationViewController];
         [targ setData:_data];
     }
+    if([segue.identifier isEqualToString:@"courseDetail"]){
+        
+        CourseDetailViewController *targ = (CourseDetailViewController *)[segue destinationViewController];
+        [targ setData:_data];
+    }
 }
 
 -(void)loadData{
@@ -83,9 +88,9 @@
     // Dequeue the cell.
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"idCellRecord" forIndexPath:indexPath];
     
-    NSInteger indexOfFirstname = [self.dbManager.arrColumnNames indexOfObject:@"firstname"];
-    NSInteger indexOfLastname = [self.dbManager.arrColumnNames indexOfObject:@"lastname"];
-    NSInteger indexOfAge = [self.dbManager.arrColumnNames indexOfObject:@"age"];
+//    NSInteger indexOfFirstname = [self.dbManager.arrColumnNames indexOfObject:@"firstname"];
+//    NSInteger indexOfLastname = [self.dbManager.arrColumnNames indexOfObject:@"lastname"];
+//    NSInteger indexOfAge = [self.dbManager.arrColumnNames indexOfObject:@"age"];
     
     // Set the loaded data to the appropriate cell labels.
     cell.textLabel.text = [NSString stringWithFormat:@"%@", [[self.courses objectAtIndex:indexPath.row] objectAtIndex:1]];
