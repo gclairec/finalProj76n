@@ -59,7 +59,7 @@
             [self performSegueWithIdentifier:@"teacherLogin" sender:[results firstObject]];
         
         }else{
-            UIAlertView *error = [[UIAlertView alloc] initWithTitle:@"Ooooops" message:@"Your account does not exist" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+            UIAlertView *error = [[UIAlertView alloc] initWithTitle:@"Ooooops" message:@"Your username and password do not match" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
                     [error show];
         }
 

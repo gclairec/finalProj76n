@@ -26,11 +26,11 @@
     [self performSegueWithIdentifier:@"addCourse" sender:self];
 }
 
-//-(void)viewDidAppear:(BOOL)animated {
-//    [super viewDidAppear:animated];
-//    
-//    [self loadData];
-//}
+-(void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    [self loadData];
+}
 
 -(void)addingCourseWasFinished{
     // Reload the data.
@@ -50,7 +50,9 @@
 
 -(void)loadData{
     // Form the query.
-    NSLog(@"Data from data: %@", _data);
+    
+    NSLog(@"DATA: %@", _data);
+    
     NSString *query = [NSString stringWithFormat:@"select * from coursesInfo where teacher_ID = '%@'", _data[0]];
     
     // Get the results.
@@ -81,6 +83,9 @@
     // Dequeue the cell.
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"idCellRecord" forIndexPath:indexPath];
     
+    NSInteger indexOfFirstname = [self.dbManager.arrColumnNames indexOfObject:@"firstname"];
+    NSInteger indexOfLastname = [self.dbManager.arrColumnNames indexOfObject:@"lastname"];
+    NSInteger indexOfAge = [self.dbManager.arrColumnNames indexOfObject:@"age"];
     
     // Set the loaded data to the appropriate cell labels.
     cell.textLabel.text = [NSString stringWithFormat:@"%@", [[self.courses objectAtIndex:indexPath.row] objectAtIndex:1]];

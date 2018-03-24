@@ -19,21 +19,21 @@
     
     [(CourseViewController *)[[self viewControllers] firstObject] setData:[self data]];
 }
-
--(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if([segue.identifier isEqualToString:@"afterAddCourse"]){
-        NSLog(@"Inside TTBC:%@", _data);
-        [(CourseViewController *)[[self viewControllers] firstObject] setData:[self courses]];
-        
-    }
-    if([segue.identifier isEqualToString:@"teacherLogin"]){
-        NSLog(@"Inside TTBC:%@", _data);
-        [(CourseViewController *)[[self viewControllers] firstObject] setData:[self userInfo]];
-    }
-    
-
-}
-
+//
+//-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+//    if([segue.identifier isEqualToString:@"afterAddCourse"]){
+//        NSLog(@"Inside TTBC:%@", _data);
+//        [(CourseViewController *)[[self viewControllers] firstObject] setData:[self courses]];
+//        
+//    }
+//    if([segue.identifier isEqualToString:@"teacherLogin"]){
+//        NSLog(@"Inside TTBC:%@", _data);
+//        [(CourseViewController *)[[self viewControllers] firstObject] setData:[self userInfo]];
+//    }
+//    
+//
+//}
+//
 
 
 

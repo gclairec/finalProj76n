@@ -45,7 +45,8 @@
         NSArray *results = [[NSArray alloc] initWithArray:[self.dbManager loadDataFromDB:query]];
         NSLog(@"%@", results);
         TeacherTabBarController *targ = (TeacherTabBarController *)[segue destinationViewController];
-        [targ setData:(NSArray *)sender];    }
+        [targ setData:results];
+    }
     
 }
 - (IBAction)addCourseBtn:(id)sender {
